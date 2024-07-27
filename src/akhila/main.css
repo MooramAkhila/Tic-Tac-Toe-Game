@@ -1,0 +1,69 @@
+body {
+    background-color: white; 
+    
+    
+
+}
+.background-image {
+    background-image: url('/images.jpeg'); /* Path relative to the public directory */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Ensures the background image stays behind the content */
+}
+.modify{
+	background-color:pink;
+	padding-top:10px;
+	border:1px solid black;
+	margin-top:100px;
+	}
+
+.hori-list {
+
+    list-style: none;
+    padding: 0;
+    margin: 20px; 
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hori-list li {
+    margin-right: 20px;
+}
+
+.hori-list li a{
+padding:5px;
+
+text-decoration: none;
+
+}
+.Projects{
+	text-align:center;
+
+color:blue;
+}
+.about{
+	text-align:center;
+
+	color:blue;
+	font-family:bold;
+	}
+.p1{
+	text-align:center;
+	font-size:25px;
+	
+	}
+.p2{
+	text-align:center;
+	font-size:25px;
+	
+	}
+.p2 ol{
+	list-style:none;
+	}

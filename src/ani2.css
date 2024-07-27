@@ -1,0 +1,31 @@
+.container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border: 1px solid #000;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.character {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    bottom: 0; /* Start at the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    transition: left 0.1s, bottom 0.1s; /* Smooth transition for movement */
+    border-radius: 50%;
+    animation: rotate 1s infinite linear; /* Rotation animation */
+}
+
+@keyframes rotate {
+    from {
+        transform: translateX(-50%) rotate(0deg);
+    }
+    to {
+        transform: translateX(-50%) rotate(360deg);
+    }
+}
+
